@@ -16,6 +16,7 @@ Description: Used to style the TinyMCE editor.
 # Tables
 # Images
 # Gallery
+# Posts and pages
 # Audio/Video
 # RTL
 --------------------------------------------------------------*/
@@ -36,10 +37,7 @@ html .mceContentBody {
 	margin: 10px;
 }
 body {
-	color: $color__text-main;
-	font-family: $font__main;
-	@include font-size(1.6);
-	line-height: $font__line-height-body;
+	background: $color__background-body;
 }
 
 /*--------------------------------------------------------------
@@ -95,6 +93,11 @@ img {
 # Gallery
 --------------------------------------------------------------*/
 @import "media/galleries";
+
+/*--------------------------------------------------------------
+# Posts and pages
+--------------------------------------------------------------*/
+@import "site/primary/entry-content";
 
 /*--------------------------------------------------------------
 # Audio/Video
