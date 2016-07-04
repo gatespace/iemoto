@@ -49,6 +49,7 @@
 			left: auto;
 		}
 	}
+	
 	li {
 		float: left;
 		position: relative;
@@ -57,6 +58,7 @@
 		&.focus > a {
 		}
 	}
+	
 	a {
 		display: block;
 		text-decoration: none;
