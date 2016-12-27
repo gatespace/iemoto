@@ -8,19 +8,20 @@ input[type="submit"] {
 	background: $color__background-button;
 	color: $color__text-button;
 	line-height: 1;
+	@include font-size(0.75);
 	vertical-align: bottom;
 	padding: .5em 1em .4em;
 
 	&:hover {
-		border-color: $color__border-button-hover;
 		background: $color__background-button-hover;
+		border-color: $color__border-button-hover;
 		color: $color__text-button-hover;
 	}
 
 	&:active,
 	&:focus {
-		border-color: $color__border-button-focus;
 		background: $color__background-button-focus;
+		border-color: $color__border-button-focus;
 		color: $color__text-button-focus;
 	}
 }
